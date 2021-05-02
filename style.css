@@ -1,0 +1,378 @@
+body {
+    font-family: roboto;
+    user-select: none;
+    margin:0px;
+}
+
+.noMargin {
+    margin: 0px;
+    opacity: 0;
+}
+
+.topMargin {
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.rightMargin {
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.bottomMargin {
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.leftMargin {
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.res_icon{
+    width:40px;
+    height:40px;
+    display: inline;
+    align-self:center;
+}
+
+.good_wrapper {
+    text-align: center;
+}
+
+#goods_wrapper {
+    display: flex;
+    justify-content: center;
+    position:fixed;
+    border-style: none;
+    width: 100vw;
+    height: 40px;
+    position:fixed;
+    left: 0;
+    top:0;
+}
+
+.good_superwrapper{
+    background-color: white;
+}
+
+#goods_wrapper > div {
+    border-style: outset;
+    min-width: 40px;
+    padding: 0px 10px;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:60px;
+    float:left;
+}
+
+.doctrines_wrapper{
+    position:fixed;
+    bottom:100px;
+    left:0px;
+    right:0px;
+    height: 200px;
+    border-style: inset;
+    background-color: white;
+}
+
+.res_building_icon_inline {
+    width:fit-content;
+    display: inline;
+    height: 100%;
+    justify-content: center;
+    flex-direction:column;
+    padding: 0 5px;
+}
+
+.res_icon_inline {
+    width:fit-content;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction:column;
+    padding: 0 5px;
+}
+
+.doctrine_wrapper{
+    height: 196px;
+    width: 146px;
+    border-style: ridge;
+}
+
+.doctrine_cooldown{
+    width: 142px;
+    height: 142px;
+    border-style: none;
+}
+
+.doctrine_button {
+    width: 142px;
+    height: 142px;
+    border-style: outset;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doctrine_costs {
+    width: 142px;
+    height: 52px;
+    border-style: outset;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    font-size:10px;
+    //flex-direction: column;
+    justify-content: center;
+}
+
+
+#woodtext {
+
+}
+
+#wood_value {
+
+}
+
+#stonetext {
+
+}
+
+#stone_value {
+
+}
+
+#strawtext {
+
+}
+
+#straw_value {
+
+}
+
+#irontext {
+
+}
+
+#iron_value {
+ 
+}
+
+#foodtext {
+
+}
+
+#food_value {
+
+}
+
+#buildings_wrapper {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#pasbuildings_wrapper {
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.building_lv {
+    //position:absolute;
+    //left: 10vw;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width:1px;
+    height: 50px;
+    width: 50px;
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    margin-right:8px;
+}
+
+.building_image {
+    //position:absolute;
+    //left: 10vw;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    border-width:1px;
+    height: 50px;
+    width: 50px;
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    margin-right:8px;
+}
+
+.building_name {
+    //position:absolute;
+    //left: calc(10vw + 60px);
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width:1px;
+    height: 50px;
+    width: calc(40vw - 130px);
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    margin-right:8px;
+}
+
+.building_name:hover {
+    //position:absolute;
+    //left: calc(10vw + 60px);
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width:1px;
+    height: 50px;
+    width: calc(40vw - 130px);
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    margin-right:8px;
+    opacity: 0.5;
+}
+
+.building_upgrade {
+    //position:absolute;
+    //left: 70vw;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: outset;
+    border-width:1px;
+    height: 50px;
+    width: 20vw;
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+}
+
+.building_upgradecosts {
+    //position:absolute;
+    font-size:12px;
+    //left: 50vw;
+    float:left;
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width:1px;
+    height: 50px;
+    width: calc(20vw - 10px);
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    margin-right:8px;
+    
+}
+
+.loadbar_wrapper {
+    //position:absolute;
+    font-size:12px;
+    //left: 50vw;
+    float:left;
+    margin-top: 10px;
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    border-style: none;
+    //border-width:1px;
+    margin-bottom: 20px;
+    width: calc(80vw - 0px);
+    vertical-align: center;
+    text-align: center;
+    user-select: none;
+    
+}
+
+.building_wrapper {
+    width: 80vw;
+    //background-color: rgba(255,0,0,0.3);
+    margin-top:10px;
+    margin-left:10vw;
+    position:unset;
+    display:flow-root;
+}
+
+/*#woodcutter_lv, #woodcutter_name, #woodcutter_upgrade, #woodcutter_upgradecosts {
+    top: 160px;
+}
+
+#quarry_lv, #quarry_name, #quarry_upgrade, #quarry_upgradecosts {
+    top: 280px;
+}
+
+#farm_lv, #farm_name, #farm_upgrade, #farm_upgradecosts {
+    top: 400px;
+}
+
+#ironmine_lv, #ironmine_name, #ironmine_upgrade, #ironmine_upgradecosts {
+    top: 520px;
+}
+
+#huntsman_lv, #huntsman_name, #huntsman_upgrade, #huntsman_upgradecosts {
+    top: 640px;
+}*/
+
+
+.std {
+    width:100%;
+    height:50px;
+    background-color:grey;
+    border-style:solid;
+    border-width: 1;
+    border-color: black;
+}
+.std > div {
+    width:100%;
+    height:100%;
+}
+
+.std > * > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: green;
+    transition:0.05s;
+    vertical-align: center;
+    text-align: center;
+}
+
+.woodbar  {
+    border-style:ridge;
+    border-width: 1;
+    border-color: rgba(54,43,34,1);
+}
+
+#controlpanel{
+    position: fixed;
+    z-index: 5;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height: 94px;
+    border-style: ridge;
+    background-color: white;
+}
